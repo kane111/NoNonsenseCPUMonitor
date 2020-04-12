@@ -1,0 +1,24 @@
+<BatteryTab>
+    text: "Battery"
+    id: batteryTab
+
+    GridLayout:
+        cols: 2
+        rows: 2
+        id: batteryGrid
+
+        MDLabel:
+            text: "Battery State"
+            halign: "center"
+            bold: True
+
+        BatteryState
+            halign: "center"
+
+        MDLabel:
+            text: "Battery Capacity"
+            halign: "center"
+            bold: True
+
+        BatteryCapacity
+            halign: "center"
