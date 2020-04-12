@@ -5,4 +5,4 @@ Requires:
 
 	Python 3+
 	Kivy, KivyMD
-	Psutil
+	psutil
